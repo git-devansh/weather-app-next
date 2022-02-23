@@ -1,0 +1,75 @@
+.week {
+  margin: 25px 0;
+}
+
+.title {
+  color: aliceblue;
+  text-align: center;
+}
+
+.weeklycard {
+  border-radius: 10px;
+  color: #fff;
+  background-color: #0000007a;
+  margin-bottom: 12px;
+}
+
+.weeklyinner {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  padding: 8px 18px;
+  justify-content: space-between;
+}
+
+.weeklyleft {
+  display: flex;
+  align-items: center;
+}
+
+.weeklyleft > div:first-child {
+  min-width: 110px;
+}
+
+.h4 span:first-child {
+  font-size: 1.1rem;
+}
+
+.h4 span:last-child {
+  margin-left: 10px;
+  font-size: 1rem;
+  opacity: 0.7;
+}
+
+.weeksuntimes {
+  display: flex;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.weeksuntimes > div span {
+  display: block;
+}
+
+.weeksuntimes > div:not(:last-child) {
+  margin-right: 16px;
+}
+
+.weeksuntimes > div span:first-child {
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 500px) {
+  .weeksuntimes {
+    display: none;
+  }
+}
+
+.weekright {
+  text-align: center;
+  min-width: 120px;
+}
+
+.image {
+  margin: -20px;
+}

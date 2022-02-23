@@ -1,0 +1,17 @@
+.heading {
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 40px;
+  background-color: rgb(52, 43, 61);
+}
+
+.title {
+  text-align: center;
+  font-weight: 800;
+  font-size: 28px;
+  color: white;
+}
+
+.light {
+  font-weight: 100;
+}

@@ -1,0 +1,142 @@
+.today {
+  background: url(../../public/images/sunny.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-color: cadetblue;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.today.cloudy {
+  background: url(../../public/images/cloudy.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-color: cadetblue;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.today.drizzle {
+  background: url(../../public/images/drizzle.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-color: cadetblue;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.today.snow {
+  background: url(../../public/images/snow.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-color: cadetblue;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.today.rain {
+  background: url(../../public/images/rain.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-color: cadetblue;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.today.thunderstrom {
+  background: url(../../public/images/thunderstorm.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-color: cadetblue;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.today.atmosphere {
+  background: url(../../public/images/atmosphere.jpg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  background-color: cadetblue;
+  border-radius: 10px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.todayinner {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px;
+}
+
+.todayleftcontent h1 {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.today h2 span:last-child {
+  margin-left: 10px;
+  font-size: 1.25rem;
+  opacity: 0.7;
+}
+
+.todaysuntimes {
+  display: flex;
+  margin-top: 8px;
+}
+
+.todaysuntimes > div:not(:last-child) {
+  margin-right: 20px;
+}
+
+.todaysuntimes > div span {
+  display: block;
+}
+
+.todaysuntimes > div span:first-child {
+  font-weight: 700;
+}
+
+.todaysuntimes > div span:last-child {
+  font-weight: 300;
+}
+
+.weatherimg {
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+  margin: 0 -20px;
+}
+
+.todayrightcontent {
+  margin-top: 6px;
+  text-align: end;
+}
